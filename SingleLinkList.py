@@ -36,6 +36,7 @@ class SingleLinkList(object):
         while cur != None:
             print(cur.item,end = " ")
             cur = cur.next
+        print('')
 
     def add(self, item):
         """头部添加元素"""
